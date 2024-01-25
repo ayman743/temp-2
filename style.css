@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    width: 90%;
+    margin: 50px auto;
+}
+nav{
+    background-color: white;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left-nav 
+{
+list-style: none;
+}
+.left-nav ul
+{
+display: flex;
+}
+.left-nav ul li
+{
+    margin-left: 50px;
+    list-style: none;
+    transition:0;
+}
+.left-nav ul li a:hover
+{
+background-color: rgb(216, 210, 199);
+}
+.left-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.right-nav
+{
+    margin: 15px 50px;
+}
+.right-nav i
+{
+margin: 10  px 10px;
+padding: 10px;
+}
+header
+{
+    background-color: #f89cab;
+    display: flex;
+    
+}
+.header-content
+{
+color: white;
+margin-left: 100px;
+margin-top: 10%;
+}
+.header-content >*
+{
+margin-bottom: 28px;
+
+}
+.header-content p
+{
+width: 44%;
+line-height: 1.6;
+}
+.header-content button
+{
+padding: 10px 20px;
+border-color:#db4566;
+border-width:0.5px ; 
+border-style: solid;
+background-color: transparent;
+transition: 0.5s;
+}
+.header-content button:hover
+{
+background-color:#db4566;
+}
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product
+{
+    background-color: beige;
+    width: 22%;
+    padding: 10px;
+    flex-wrap: wrap;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.products-descriptions 
+{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.product img
+{
+    width: 100%;
+    height: 200px;
+    object-fit:contain ;
+}
+.products-descriptions span{
+    color: #db4566;
+}
+.description
+{
+    background-color:#d6899a ;
+    display: flex;
+    align-items: center;
+   
+}
+.description-content
+{
+   color: white;
+}
+.description-content >*
+{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.description-content button
+{
+    color:white;
+    background-color: transparent;
+    border:1px solid; 
+    padding: 10px 30px;
+    border-color:#db4566;
+    transition: 0.5s;
+}
+.description-content button:hover
+{
+    color: black;
+background-color: white;
+}
+
+.reasons
+{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+.why-us
+{
+    margin-top: 100px;
+    position: relative;
+    align-items: center;
+}
+.why-us h1{
+
+    font-size: xx-large;
+}
+.reason
+{
+    width: 30%;
+    background-color: aqua;
+    text-align: center;    
+    padding: 30px 20px;
+}
+.bx-cog
+{
+position: absolute;
+bottom: 120px;
+left: 48%;
+background-color: #d6899a;
+padding: 20px;
+border-radius: 50%;
+}
+.bx-lemon
+{
+position: absolute;
+bottom: 120px;
+left: 13%;
+background-color: #d6899a;
+padding: 20px;
+border-radius: 50%;
+}
+.bxs-truck
+{
+position: absolute;
+bottom: 120px;
+left: 82%;
+background-color: #d6899a;
+padding: 20px;
+border-radius: 50%;
+}
+.Testimonails
+{
+    display: flex;
+    gap: 30px;
+}
+.Testimonail
+{
+    text-align: center;
+    width:28%;
+    background-color:#eeeeee;
+    padding:10px 25px 30px;
+}
+.Testimonail img
+{
+    width:10% ;
+}
+.Testimonail-lower h3
+{
+color: #c46479;
+padding: 10px;
+}
+.bxs-star
+{
+    margin-top: 10px;
+    color:rgb(255, 255, 95);
+}
+
+.contact-us h1
+{
+padding: 60px 0px 75px;
+font-size: 50px;
+}
+.contact-us input
+{
+margin-left: 26%;
+padding-top:10px;
+padding-right: 35%;
+padding-left: 10px;
+padding-bottom:10px ;
+margin-bottom:20px ;
+}
+.contact-us textarea
+{
+    margin-left: 26%;
+    padding-right: 29%;
+}
+.bottom
+{
+    background-color: #232b37;
+    width: 100%;   
+}
+.footer-content img
+{
+width: 20%;
+}
+
+.footer-content
+{
+    padding: 20px 10%;
+}
+.footer-topcontent
+{
+    color: white;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+.footer-topcontent p
+{
+line-height: 1.6;
+color:gray;
+}
+.form >*
+{
+    padding: 10px 10px;
+
+}
+.color
+{
+    color: white;
+}
+.form button
+{
+    background-color: rgb(65, 169, 234);
+    color: white;
+}
+.mid-footer{
+    padding: 20px 10%;
+    display: flex;
+  
+}
+.mid-footer ul li
+{
+    text-align: center;
+    line-height: 2;
+    list-style: none;
+}
+.left
+{
+    text-align: center;
+    width: 30%;
+    line-height: 1.2;
+}
+.left h1
+{
+   
+    margin-bottom: 20px;
+}
+.mid
+{
+margin:0 10%;
+}
+.right
+{
+   margin-left:60px ;
+}
